@@ -2,11 +2,6 @@
 
 Bem-vindo ao repositório do **FLUi**, uma solução de "Smart Charging" desenvolvida para a Etapa 1 do Enterprise Challenge. O aplicativo visa otimizar a experiência de motoristas de veículos elétricos na busca, planejamento e utilização de pontos de recarga.
 
-## Integrantes da Equipe
-- **Lilla Barbosa Bordignon** - RM: 565661
-- **Yuri Braga Jardim Rubine** - RM: 563293
-- **Curso:** Webdesign (2TWDOA) - FIAP
-
 ## Sobre o Protótipo
 Este projeto é um wireframe interativo desenvolvido para simular o fluxo principal do aplicativo FLUi. Ele apresenta uma interface fluida, moderna e focada na usabilidade (UX/UI), aplicando conceitos de design sustentável e tecnologia de mobilidade elétrica.
 
