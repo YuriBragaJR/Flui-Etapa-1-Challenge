@@ -51,7 +51,6 @@
                             },
                             '11%, 13%, 41%, 43%, 100%': {
                                 opacity: '1',
-                                /* Brilho usando o Azul Ionizado (#00B4D8 convertido para RGB: 0, 180, 216) */
                                 filter: 'drop-shadow(0 0 5px rgba(0, 180, 216, 0.6)) drop-shadow(0 0 5px rgba(0, 180, 216, 0.9))'
                             },
                         },
@@ -105,7 +104,6 @@
         .screen {
             display: none;
             height: calc(100% - 80px);
-            /* Menos a navegação inferior */
             overflow-y: auto;
             position: relative;
         }
@@ -140,7 +138,6 @@
 
         .nav-item.active {
             color: #00D084;
-            /* Verde Cinético */
         }
     </style>
 </head>
@@ -404,12 +401,11 @@
                 const splash = document.getElementById('splash-screen');
                 splash.classList.add('opacity-0', 'pointer-events-none');
 
-                // Remove totalmente a splash do layout após o fade-out e ativa a home
                 setTimeout(() => {
                     splash.style.display = 'none';
                     document.getElementById('welcome').classList.add('active');
                 }, 500);
-            }, 3800); // Tempo para a animação neon e carregamento completarem
+            }, 3800);
         });
 
         const mockStations = [
@@ -502,14 +498,14 @@
             const appNav = document.getElementById('app-nav');
             const appHeader = document.getElementById('app-header');
 
-            // Lógica de visibilidade do Header (Apenas no mapa)
+            // Visibilidade do Header (Apenas no mapa)
             if (tabId === 'map') {
                 appHeader.classList.remove('hidden');
             } else {
                 appHeader.classList.add('hidden');
             }
 
-            // Lógica de visibilidade da Navegação Inferior
+            // Visibilidade da Navegação Inferior
             if (tabId === 'detail') {
                 appNav.classList.add('hidden');
             } else {
